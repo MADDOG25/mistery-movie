@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    font-family: 'Rowdies', system-ui;
-  }
+:root{
+  --redPrimary: #dc2626;
+}
+
+body{
+  font-family: 'Rowdies', system-ui;
+}
