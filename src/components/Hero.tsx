@@ -1,6 +1,6 @@
 //Componente para el inicio de la app.
 
-import {InputEmail} from "./ui/inputEmail";
+import { InputEmail } from "./ui/inputEmail";
 
 export default function Hero() {
   return (
@@ -15,10 +15,11 @@ export default function Hero() {
           <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
             Míranos!
           </h2>
+          <h3 className="mt-6 text-3xl leading-8 text-gray-300">
+            Películas y series ilimitadas y mucho más
+          </h3>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-            lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-            fugiat aliqua.
+            Disfruta donde quieras. Cancela cuando quieras.
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">

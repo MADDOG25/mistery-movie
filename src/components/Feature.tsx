@@ -7,7 +7,7 @@ export default function Feature() {
             <h3 className="text-[--redPrimary] text-3xl font-semibold sm:text-4xl">
               ¡Descubre un mundo de emociones con nuestra app de películas!
             </h3>
-            <p>
+            <p className="text-base text-gray-300">
               Desde clásicos atemporales hasta los estrenos más recientes, ¡todo
               en la palma de tu mano!
             </p>
@@ -32,7 +32,7 @@ export default function Feature() {
             <h3 className="text-[--redPrimary] text-3xl font-semibold sm:text-4xl">
               ¿Listo para sumergirte en historias inolvidables?
             </h3>
-            <p>
+            <p className="text-base text-gray-300">
               Nuestra app de películas te lleva a un viaje cinematográfico sin
               límites. Descubre nuevas favoritas y revive viejos amores del
               cine.
@@ -58,7 +58,7 @@ export default function Feature() {
             <h3 className="text-[--redPrimary] text-3xl font-semibold sm:text-4xl">
               ¿Aburrido de buscar películas en múltiples plataformas?
             </h3>
-            <p>
+            <p className="text-base text-gray-300">
               Simplifica tu experiencia con nuestra app todo en uno. Desde
               clásicos hasta los últimos estrenos, ¡todo en un solo lugar!
             </p>

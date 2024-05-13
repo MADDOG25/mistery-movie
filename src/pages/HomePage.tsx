@@ -2,6 +2,7 @@
 import Feature from "../components/Feature";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import Accordion from "../components/Accordion";
 
 function HomePage() {
   return (
@@ -9,6 +10,7 @@ function HomePage() {
       <Header />
       <Hero />
       <Feature/>
+      <Accordion/>
     </>
   );
 }
