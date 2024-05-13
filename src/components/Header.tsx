@@ -15,13 +15,13 @@ export default function Header() {
       >
         {/* LOGO */}
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-0.5 p-0.5 text-[--redPrimary] text-2xl">
+          <a href="#" className="-m-0.5 p-0.5 text-[--redPrimary] text-2xl flex items-center">
             <span className="sr-only">Mistery Movie</span>
-            {/* <img
-              className="h-12 w-auto"
-              src="https://i.postimg.cc/s2KfpxTp/Mistery-Movie-removebg-preview.png"
+            <img
+              className="h-10 w-auto mx-2"
+              src="./Mistery-Movie-logo.svg"
               alt="Mistery Movie-logo"
-            /> */}
+            />
             Mistery Movie
           </a>
         </div>
@@ -75,13 +75,13 @@ export default function Header() {
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-neutral-700 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <a href="#" className="-m-1.5 p-1.5  text-[--redPrimary] text-2xl">
+            <a href="#" className="-m-1.5 p-1.5  text-[--redPrimary] text-2xl flex items-center">
               <span className="sr-only">Mistery Movie</span>
-              {/* <img
-                className="h-10 w-auto"
-                src="https://i.postimg.cc/s2KfpxTp/Mistery-Movie-removebg-preview.png"
+              <img
+                className="h-8 w-auto mx-2"
+                src="./Mistery-Movie-logo.svg"
                 alt="Mistery Movie-logo"
-              /> */}
+              />
               Mistery Movie
             </a>
             <button

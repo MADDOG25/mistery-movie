@@ -34,7 +34,7 @@ export function InputEmail() {
                 <FormControl>
                   <Input
                     type="email"
-                    placeholder="ejemplo123@gmail.com"
+                    placeholder="correo"
                     {...field}
                   />
                 </FormControl>
