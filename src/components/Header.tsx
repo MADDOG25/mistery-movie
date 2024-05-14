@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Dialog, Popover } from "@headlessui/react";
 import { Bars3Icon } from "@heroicons/react/24/outline";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -43,12 +44,12 @@ export default function Header() {
           >
             Inicio
           </a>
-          <a
-            href="#"
+          <Link
+            to="/movie"
             className="text-m font-light leading-6 text-[--redPrimary]"
           >
             Películas
-          </a>
+          </Link>
           <a
             href="#"
             className="text-m font-light leading-6 text-[--redPrimary]"
@@ -57,12 +58,12 @@ export default function Header() {
           </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a
-            href="#"
+          <Link
+            to="/login"
             className="text-m font-light leading-6 text-[--redPrimary]"
           >
             Inicia sesión <span aria-hidden="true"></span>
-          </a>
+          </Link>
         </div>
       </nav>
       {/* MOBILE OPEN */}
@@ -103,12 +104,12 @@ export default function Header() {
                 >
                   Inicio
                 </a>
-                <a
-                  href="#"
+                <Link
+                  to="/movie"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-light leading-7 text-white hover:bg-[--redPrimary] "
                 >
                   Películas
-                </a>
+                </Link>
                 <a
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-light leading-7 text-white hover:bg-[--redPrimary] "
@@ -117,12 +118,12 @@ export default function Header() {
                 </a>
               </div>
               <div className="py-6">
-                <a
-                  href="#"
+                <Link
+                  to="/login"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-light leading-7 text-white hover:bg-[--redPrimary] "
                 >
                   Inicia sesión
-                </a>
+                </Link>
               </div>
             </div>
           </div>
