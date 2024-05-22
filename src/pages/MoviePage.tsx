@@ -14,9 +14,10 @@ export default function MoviePage() {
             Conoce nuestro catálogo
           </p>
         </div>
-        <h3 className="text-xl mt-4 font-bold tracking-tight text-[--redPrimary] sm:text-xl">
-          Películas Nuevas
-        </h3>
+        <div className="flex flex-col w-full">
+          <div className="divider divider-neutral"></div>
+        </div>
+        
         <MovieList />
       </div>
     </div>

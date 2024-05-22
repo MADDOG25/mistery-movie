@@ -43,7 +43,7 @@ export default function Feature() {
             </div>
             <div className="mt-12 lg:mt-0">
               <img
-                src="/rebel-moon.jpg"
+                src="/dune.jpg"
                 className="w-full shadow-lg rounded-lg border"
                 alt="rebel-moon"
               />
@@ -68,7 +68,7 @@ export default function Feature() {
             </div>
             <div className="mt-12 lg:mt-0">
               <img
-                src="/rebel-moon.jpg"
+                src="/creator.jpg"
                 className="w-full shadow-lg rounded-lg border"
                 alt="rebel-moon"
               />
