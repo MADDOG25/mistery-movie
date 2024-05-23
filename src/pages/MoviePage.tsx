@@ -1,9 +1,13 @@
 // Página de detalles de la película que muestra información detallada sobre una película específica.
 
-import MovieList from "../components/MovieList";
+// import Header from "../components/Header";
+import Footer from "@/components/Footer";
+import MovieList from "@/components/MovieList";
 
 export default function MoviePage() {
   return (
+    <>
+    {/* <Header/> */}
     <div className="bg-white py-24 sm:py-12">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
@@ -21,5 +25,8 @@ export default function MoviePage() {
         <MovieList />
       </div>
     </div>
+    <Footer/>
+    </>
+    
   );
 }

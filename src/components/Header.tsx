@@ -39,7 +39,7 @@ export default function Header() {
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <a
-            href="#"
+            href="/"
             className="text-m font-light leading-6 text-[--redPrimary]"
           >
             Inicio
