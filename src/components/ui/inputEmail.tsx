@@ -4,9 +4,9 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 
-import { Button } from "@/components/ui/button";
 import { Form, FormControl, FormField, FormItem } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
+import { Link } from "react-router-dom";
 
 const FormSchema = z.object({
   email: z.string().email({
@@ -32,16 +32,12 @@ export function InputEmail() {
             render={({ field }) => (
               <FormItem>
                 <FormControl>
-                  <Input
-                    type="email"
-                    placeholder="correo"
-                    {...field}
-                  />
+                  <Input type="email" placeholder="correo" {...field} />
                 </FormControl>
               </FormItem>
             )}
           />
-          <Button type="submit">Entrar</Button>
+          <Link to="/movie">Entrar</Link>
         </div>
       </form>
     </Form>

@@ -75,7 +75,6 @@ export default function Example() {
             <InputEmail />
           </div>
         </div>
-
       </div>
     </div>
   );
