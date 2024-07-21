@@ -18,13 +18,13 @@ export default function Header() {
         <div className="flex lg:flex-1">
           <a
             href="/"
-            className="-m-0.5 p-0.5 text-[--redPrimary] text-2xl flex items-center"
+            className="-m-0.5 p-0.5 text-white text-2xl flex items-center"
           >
             <span className="sr-only">Mistery Movie</span>
             <img
               className="h-10 w-auto mx-2"
               src="./Mistery-Movie-logo.svg"
-              alt="Mistery Movie-logo"
+              alt="Mistery Movie logo"
             />
             Mistery Movie
           </a>
@@ -33,7 +33,7 @@ export default function Header() {
         <div className="flex lg:hidden">
           <button
             type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-[--redPrimary]"
+            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
@@ -43,27 +43,21 @@ export default function Header() {
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <a
             href="/"
-            className="text-m font-light leading-6 text-[--redPrimary]"
+            className="text-m font-light text-white"
           >
             Inicio
           </a>
           <Link
             to="/movie"
-            className="text-m font-light leading-6 text-[--redPrimary]"
+            className="text-m font-light text-white"
           >
             Películas
           </Link>
-          {/* <a
-            href="#"
-            className="text-m font-light leading-6 text-[--redPrimary]"
-          >
-            Contacto
-          </a> */}
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <Link
             to="/login"
-            className="text-m font-light leading-6 text-[--redPrimary]"
+            className="text-m font-light text-white"
           >
             Inicia sesión <span aria-hidden="true"></span>
           </Link>
@@ -77,17 +71,17 @@ export default function Header() {
         onClose={setMobileMenuOpen}
       >
         <div className="fixed inset-0 z-10" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-neutral-700 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-          <div className="flex items-center justify-between">
+        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-gray-800 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+          <div className="mt-1 flex items-center justify-between">
             <a
-              href="#"
-              className="-m-1.5 p-1.5  text-[--redPrimary] text-2xl flex items-center"
+              href="/"
+              className="-m-1.5 p-1.5  text-white text-2xl flex items-center"
             >
               <span className="sr-only">Mistery Movie</span>
               <img
                 className="h-8 w-auto mx-2"
                 src="./Mistery-Movie-logo.svg"
-                alt="Mistery Movie-logo"
+                alt="Mistery Movie logo"
               />
               Mistery Movie
             </a>
@@ -103,30 +97,24 @@ export default function Header() {
 
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-[--redPrimary] ">
-              <div className="space-y-2 py-6">
+              <div className="space-y-2 py-10">
                 <a
                   href="/"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-light leading-7 text-white hover:bg-[--redPrimary] "
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-light text-white hover:bg-[--redPrimary] "
                 >
                   Inicio
                 </a>
                 <Link
                   to="/movie"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-light leading-7 text-white hover:bg-[--redPrimary] "
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-light text-white hover:bg-[--redPrimary] "
                 >
                   Películas
                 </Link>
-                {/* <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-light leading-7 text-white hover:bg-[--redPrimary] "
-                >
-                  Contacto
-                </a> */}
               </div>
               <div className="py-6">
                 <Link
                   to="/login"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-light leading-7 text-white hover:bg-[--redPrimary] "
+                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-light text-white hover:bg-[--redPrimary] "
                 >
                   Inicia sesión
                 </Link>

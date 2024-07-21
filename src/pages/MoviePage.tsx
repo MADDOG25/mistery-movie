@@ -3,11 +3,13 @@
 // import Header from "../components/Header";
 import Footer from "@/components/Footer";
 import MovieList from "@/components/MovieList";
+import NavbarLogo from "@/components/NavbarLogo";
 import { Link } from "react-router-dom";
 
 export default function MoviePage() {
   return (
     <>
+    <NavbarLogo/>
       <div className="bg-white py-24 sm:py-12">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto items-center">
@@ -15,7 +17,7 @@ export default function MoviePage() {
               <h2 className="text-3xl font-bold tracking-tight text-[--redPrimary] sm:text-4xl">
                 Movies
               </h2>
-              <p className="mt-2 text-lg leading-8 text-gray-800">
+              <p className="mt-2 text-lg text-gray-800">
                 Conoce nuestro catálogo
               </p>
             </div>
@@ -28,7 +30,7 @@ export default function MoviePage() {
         <div className="mx-auto mt-6 text-center flex justify-center">
           <Link
             to="/"
-            className="flex text-m font-light leading-8 text-[--redPrimary]"
+            className="flex text-m font-light text-[--redPrimary]"
           >
             <img src="/home.svg" width={40} height={40}></img>
           </Link>
